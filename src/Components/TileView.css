@@ -1,0 +1,33 @@
+.tile-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .tile-item {
+    border: 5px solid #ddd;
+    background-color: white;
+    padding: 16px;
+    margin: 8px;
+    cursor: pointer;
+    flex: 1 1 200px; /* Adjust as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  
+    .grid-item:hover {
+      transform: translateY(-8px) scale(1.05); /* Slightly elevate and enlarge the item on hover */
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      background-color: rgba(255, 99, 71, 0.2);
+      color: purple;
+  }
+  
+  .tile-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
