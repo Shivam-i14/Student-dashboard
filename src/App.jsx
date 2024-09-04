@@ -1,9 +1,9 @@
 import  { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Menu from "./Components/Menu";
-import GridView from "./components/GridView";
-import TileView from "./components/TileView";
-import DetailView from "./components/DetailView";
+import GridView from "./Components/GridView";
+import TileView from "./ Components/TileView";
+import DetailView from "./ Components/DetailView";
 import "./App.css";
 
 const App = () => {
