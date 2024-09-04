@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Menu from "./Components/Menu";
 import GridView from "./Components/GridView";
 import TileView from "./Components/TileView";
-import DetailView from "./ Components/DetailView";
+import DetailView from "./Components/DetailView";
 import "./App.css";
 
 const App = () => {
